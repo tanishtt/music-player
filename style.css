@@ -13,8 +13,8 @@
 /*----id-body------*/
 #body{
     width: 100%;
-    height: 100vh;
-    background:linear-gradient(rgb(66, 19, 141), rgb(119, 3, 119));
+    height: auto;
+    background:linear-gradient(rgb(43, 6, 104), rgb(88, 4, 88));
     display: flex;
 }
 /*---------side-bar------------------*/
@@ -23,16 +23,120 @@
     height: 100vh;
     border: 4px solid black;
     margin: 10px;
+    
 }
 
 /*-----main-----------*/
 #main{
     width: 60%;
-    height: 100vh;
+    height: auto;
     border: 4px solid black;
     margin: 10px;
 }
+/*cover-picture*/
+.cover-picture{
+    border: 4px solid black;
+    margin: 10px;
+    
+    height: 50vh;
+}
 
+/*latest-release*/
+.latest-release{
+    border: 4px solid black;
+    margin: 10px;
+    height: 40vh;
+}
+/*popular-artist*/
+.popular-artist{
+    border: 4px solid black;
+    margin: 10px;
+    height: 30vh;
+}
+/*stations*/
+.stations{
+    border: 4px solid black;
+    margin: 10px;
+    height: 30vh;
+}
+/*combined*/
+.combined{
+    border: 4px solid black;
+    margin: 10px;
+    height: 30vh;
+}
+/*latest-english*/
+.latest-english{
+    border: 4px solid black;
+    margin: 10px;
+    height: 30vh;
+}
+.latest-english .latest-english-images{
+    display: flex;
+    width: inherit;
+    height: 70%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.latest-english h1{
+    /* display: block; */
+    /* text-align: center; */
+    font-size: 1.6rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.latest-english div{
+    width: 15%;
+    padding: 5px;
+    
+}
+.latest-english div img{
+    width: 111px;
+    height: 111px;
+}
+.latest-english div img:hover{
+    background-color: white;
+}
+/*latest-hindi*/
+.latest-hindi{
+    border: 4px solid black;
+    margin: 10px;
+    height: 30vh;
+}
+.latest-hindi .latest-hindi-images{
+    display: flex;
+    width: inherit;
+    height: 70%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.latest-hindi h1{
+    /* display: block; */
+    /* text-align: center; */
+    font-size: 1.6rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.latest-hindi div{
+    width: 15%;
+    padding: 5px;
+    
+}
+.latest-hindi div img{
+    width: 111px;
+    height: 111px;
+}
+.latest-hindi div img:hover{
+    background-color: white;
+}
 /*---------queue-------------------*/
 #queue{
     width: 22%;
