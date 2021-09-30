@@ -32,6 +32,7 @@
     height: auto;
     border: 4px solid black;
     margin: 10px;
+    background:linear-gradient(rgb(3, 10, 78),rgb(27, 1, 32));
 }
 /*cover-picture*/
 .cover-picture{
@@ -67,9 +68,9 @@
 }
 /*latest-english*/
 .latest-english{
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
-    height: 30vh;
+    height: 34vh;
 }
 .latest-english .latest-english-images{
     display: flex;
@@ -97,15 +98,26 @@
 .latest-english div img{
     width: 111px;
     height: 111px;
+    border-radius: 5%;
 }
-.latest-english div img:hover{
-    background-color: white;
+.latest-english div p{
+    color: rgb(199, 196, 196);
+    font-size: 1rem;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.latest-english div span{
+    font: 0.7em Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(196, 193, 193);
+    font-weight: 500;
+    padding: 3px;
 }
 /*latest-hindi*/
 .latest-hindi{
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
-    height: 30vh;
+    height: 34vh;
 }
 .latest-hindi .latest-hindi-images{
     display: flex;
@@ -133,9 +145,20 @@
 .latest-hindi div img{
     width: 111px;
     height: 111px;
+    border-radius: 5%;
 }
-.latest-hindi div img:hover{
-    background-color: white;
+.latest-hindi div p{
+    color: rgb(199, 196, 196);
+    font-size: 1rem;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.latest-hindi div span{
+    font: 0.7em Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(196, 193, 193);
+    font-weight: 500;
+    padding: 3px;
 }
 /*---------queue-------------------*/
 #queue{
