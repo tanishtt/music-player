@@ -14,7 +14,7 @@
 #body{
     width: 100%;
     height: auto;
-    background:linear-gradient(rgb(43, 6, 104), rgb(88, 4, 88));
+    background:linear-gradient(rgb(72, 10, 172), rgb(158, 8, 158),rgb(29, 3, 41));
     display: flex;
 }
 /*---------side-bar------------------*/
@@ -32,7 +32,7 @@
     height: auto;
     border: 4px solid black;
     margin: 10px;
-    background:linear-gradient(rgb(3, 10, 78),rgb(27, 1, 32));
+    background:linear-gradient(rgb(7, 17, 110),rgb(90, 3, 107),rgb(0, 0, 24));
 }
 /*cover-picture*/
 .cover-picture{
@@ -50,22 +50,93 @@
 }
 /*popular-artist*/
 .popular-artist{
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
-    height: 30vh;
+    height: 35vh;
+}
+.popular-artist-subclass{
+    display: flex;
+    width: inherit;
+    height: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.popular-artist h2{
+    /* display: block; */
+    /* text-align: center; */
+    font-size: 1.6rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.popular-artist-subclass div{
+    width: 18%;
+    padding: 5px;
+    
+    
+}
+.popular-artist-subclass div img{
+    width: 100%;
+    height: 80%;
+    
+    border-radius: 50%;
+}
+.popular-artist-subclass div p{
+    color: rgb(199, 196, 196);
+    font-size: 1rem;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
 }
 /*stations*/
 .stations{
-    border: 4px solid black;
-    margin: 10px;
-    height: 25vh;
+    /* border: 4px solid black; */
+    margin: 30px 0;
+    height: 20vh;
+    background:linear-gradient(rgb(3, 30, 66),darkblue);
+    display: none;
+}
+.stations-subclass{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    
+    left: 20%;
+}
+
+.stations-station{
+    width: 12%;
+    height: 100%;
+    background-color: chartreuse;
+    
+}
+.stations-subclass div{
+    width: 14%;
+    height: 100%;
+    position: relative;
+}
+.stations-subclass div img{
+    background-size: contain;
+    width: 100%;
+    height: 65%;
+    border-radius: 50%;
+    position: relative;
+    top: 17%;
 }
 /*combined*/
 .combined{
     /* border: 4px solid black; */
-    margin: 10px;
+    margin: 10px 0;
     height: 30vh;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .combined-subclass{
 display: flex;
@@ -75,9 +146,10 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 .combined-subclass div{
-    width: 32%;
+    width: 31%;
     height: 100%;
     position: relative;
+    padding: 5px;
 }
 .combined-subclass div img{
     background-size: contain;
@@ -97,14 +169,14 @@ flex-wrap: wrap;
 /*latest-english*/
 .latest-english{
     /* border: 4px solid black; */
-    margin: 10px;
+    margin: 10px 0;
     height: 34vh;
 }
 .latest-english .latest-english-images{
     display: flex;
     width: inherit;
     height: 70%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
@@ -144,14 +216,14 @@ flex-wrap: wrap;
 /*latest-hindi*/
 .latest-hindi{
     /* border: 4px solid black; */
-    margin: 10px;
+    margin: 10px 0;
     height: 34vh;
 }
 .latest-hindi .latest-hindi-images{
     display: flex;
     width: inherit;
     height: 70%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
@@ -164,6 +236,7 @@ flex-wrap: wrap;
     font-weight: 500;
     padding-top: 10px;
     padding-bottom: 5px;
+    
 }
 .latest-hindi div{
     width: 15%;
