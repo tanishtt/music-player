@@ -394,7 +394,20 @@ flex-wrap: wrap;
     border: 4px solid black;
     margin: 10px;
     position: sticky;
+    overflow-y: scroll;
     top: 0.5%;
     right: 0.5%;
+}
+#queue-songs{
+    background-color: rgb(247, 244, 244);
+    height: inherit;
+    
+}
+.queue-items{
+    height: 70px;
+    display: flex;
+    margin-top: 5%;
+    background-color: rgb(135, 243, 28);
+    align-items: center;
 }
 
