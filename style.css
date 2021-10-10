@@ -4,6 +4,7 @@
 }
 body{
     background-color: #0c1027;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*-------header-----------*/
 #header{
@@ -32,7 +33,7 @@ body{
 #main{
     width: 60%;
     height: auto;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
     /* background:linear-gradient(rgb(7, 17, 110),rgb(90, 3, 107),rgb(0, 0, 24)); */
 }
@@ -391,23 +392,57 @@ flex-wrap: wrap;
 #queue{
     width: 22%;
     height: 100vh;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
     position: sticky;
     overflow-y: scroll;
     top: 0.5%;
     right: 0.5%;
 }
+#queue h1{
+color: whitesmoke;
+font-size: 1.6rem;
+}
 #queue-songs{
-    background-color: rgb(247, 244, 244);
+    
     height: inherit;
     
 }
 .queue-items{
     height: 70px;
     display: flex;
-    margin-top: 5%;
-    background-color: rgb(135, 243, 28);
+    margin-top: 4%;
+    background-color: #11193b;
     align-items: center;
+}
+.queue-number{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+.queue-items:hover{
+    background-color: #19203f;
+}
+.queue-songs-image{
+    padding-left: 10px;
+}
+.queue-songs-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 0.3rem;
+}
+.queue-songs-name{
+    width: 55%;
+    padding-left: 15px;
+}
+.queue-songs-name p{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.heart  .fa-heart{
+    color: whitesmoke;
+}
+.heart  .fa-heart:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
 }
 
