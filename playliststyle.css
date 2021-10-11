@@ -149,12 +149,16 @@ i:hover{
     font-size: 1.1rem;
 }
 @media(max-width:600px){
-    section{
-        display: none;
-    }
+    
     #side-bar{
         display: none;
         
+    }
+    #main-queue{
+        display: none;
+    }
+    #main-playlist{
+        width: 100%;
     }
     
 }
@@ -245,7 +249,11 @@ i:hover{
     font-size: 1.4rem;
     padding-left: 40px;
 }
-
+@media(max-width:600px){
+    #main-playlist{
+        width: 100%;
+    }
+}
 
 
 
