@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0c1027;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------header-----------*/
+#header{
+    height: 10vh;
+    /* border: 4px solid black; */
+    /* margin: 10px; */
+    position: fixed;
+    width: 100%;
+    background-color: #0c1027;
+    z-index: 2;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.fa-bell,.fa-icons,.fa-search{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.icon{
+    padding-left: 15px;
+    color: rgb(0, 119, 255);
+}
+.icon-top{
+    padding-left: 35px;
+}
+
+#header div div{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+}
+#header div input{
+    height: 5vh;
+    width: 25vw;
+    border-radius:1rem;
+    background-color: #1a2350;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+}
+#header div input::placeholder{
+    color: rgb(170, 169, 169);
+    font-size: 0.9rem;
+    padding-left: 20px;
+}
+#header a{
+align-self: center;
+}
+i:hover{
+    color: rgb(122, 120, 120);
+}
+#header h1{
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#form{
+    
+    width: 68%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----id-body------*/
+#body{
+    width: 100%;
+    height: auto;
+    /* background:linear-gradient(rgb(72, 10, 172), rgb(158, 8, 158),rgb(29, 3, 41)); */
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------side-bar------------------*/
+#side-bar{
+    width: 14%;
+    height: 85vh;
+    /* border: 4px solid black; */
+    margin: 10px;
+    margin-right: 0px;
+    position: sticky;
+    top: 14vh;
+    margin-top: 14vh  ;
+    
+}
+.side-bar-section{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.side-bar-section:hover{
+    background-color: #19203f;
+}
+.side-bar-section span{
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----main-----------*/
+#main-playlist{
+    
+    width: 60%;
+    height: auto;
+    border: 4px solid black;
+    margin: 10px;
+    margin-top: 12vh;
+    /* background:linear-gradient(rgb(7, 17, 110),rgb(90, 3, 107),rgb(0, 0, 24)); */
+}
+
+
+
+
+
+
+
+/*---------queue-------------------*/
+#queue{
+    width: 22%;
+    height: 100vh;
+    /* border: 4px solid black; */
+    margin: 10px;
+    position: sticky;
+    overflow: auto;
+    top: 13vh;
+    margin-top: 13vh;
+    right: 0.5%;
+    z-index: 0;
+    
+}
+
+#queue h1{
+color: whitesmoke;
+font-size: 1.6rem;
+}
+#queue-songs{
+    
+    height: inherit;
+    
+}
+.queue-items{
+    height: 70px;
+    display: flex;
+    margin-top: 4%;
+    /* background-color: #11193b; */
+    align-items: center;
+}
+.queue-number{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+.queue-items:hover{
+    background-color: #19203f;
+}
+.queue-songs-image{
+    padding-left: 10px;
+}
+.queue-songs-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 0.3rem;
+}
+.queue-songs-name{
+    width: 55%;
+    padding-left: 15px;
+}
+.queue-songs-name p{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.heart  .fa-heart{
+   color: whitesmoke;
+}
+.heart  .fa-heart:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
