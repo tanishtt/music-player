@@ -148,6 +148,16 @@ i:hover{
     padding-left: 15px;
     font-size: 1.1rem;
 }
+@media(max-width:600px){
+    section{
+        display: none;
+    }
+    #side-bar{
+        display: none;
+        
+    }
+    
+}
 
 
 
@@ -172,7 +182,7 @@ i:hover{
     
     width: 60%;
     height: auto;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     margin: 10px;
     margin-top: 12vh;
     /* background:linear-gradient(rgb(7, 17, 110),rgb(90, 3, 107),rgb(0, 0, 24)); */
@@ -181,8 +191,16 @@ i:hover{
     border: 2px solid black;
     height: 50vh;
     width: 100%;
+    
+}
+#main-playlist-description div{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/live-poster.jpg);
+    background-size: 100% 100%;
 }
 #main-playlist-songs{
+    margin-top: 30px;
     height: auto;
     width: 100%;
 }
@@ -213,7 +231,7 @@ i:hover{
 }
 .mp-content{
     width: 70%;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .mp-content span{
     font-size: 0.8rem;
@@ -361,4 +379,26 @@ text-decoration: none;
 .heart  .fa-heart:hover{
     background-color: whitesmoke;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------footer---------------------*/
+footer{
+    width: 100%;
+    height: 12vh;
+    background:linear-gradient(to right,rgb(12, 10, 10),rgb(94, 93, 93),rgb(12, 10, 10));
+    
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    align-content: space-between;
+    bottom: 0px;
 }

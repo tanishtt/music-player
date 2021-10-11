@@ -148,7 +148,14 @@ i:hover{
     padding-left: 15px;
     font-size: 1.1rem;
 }
-
+@media(max-width:700px){
+    
+    #side-bar{
+        display: none;
+        
+    }
+    
+}
 
 
 
@@ -297,59 +304,35 @@ i:hover{
     text-align: center;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-stations
-.stations{
-    /* border: 4px solid black; */
-    padding: 40px 0;
-    height: 20vh;
-    background:linear-gradient(rgb(3, 30, 66),darkblue);
-    display: none;
-}
-.stations-subclass{
-    display: flex;
-    height: 100%;
-    width: 80%;
-    
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    
-    left: 20%;
+@media(max-width:700px){
+    .popular-artist-subclass div{
+        width: 15%;
+        padding-left: 1px;
+    }
+    .popular-artist-subclass div img{
+        height: 60%;
+    }
+    .popular-artist-subclass div p{
+        font-size: 0.7rem;
+        padding: 6px;
+    }
 }
 
-.stations-station{
-    width: 12%;
-    height: 100%;
-    background-color: chartreuse;
-    
-}
-.stations-subclass div{
-    width: 14%;
-    height: 100%;
-    position: relative;
-}
-.stations-subclass div img{
-    background-size: contain;
-    width: 100%;
-    height: 65%;
-    border-radius: 50%;
-    position: relative;
-    top: 17%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -399,6 +382,25 @@ flex-wrap: wrap;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+}
+@media(max-width:700px){
+    .combined-subclass div h2{
+        font-size: 1rem;
+    }
+    .combined{
+        height: auto;
+        
+    }
+    .combined-subclass div{
+        width: 90%;
+        height: 18vh;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .combined-subclass div img{
+        /* padding-left: 10px; */
+        border-radius: 0.5rem;
+    }
 }
 
 
@@ -471,7 +473,29 @@ flex-wrap: wrap;
     font-weight: 500;
     padding: 3px;
 }
-
+@media(max-width:700px){
+    .latest-english{
+        height: auto;
+    }
+    .latest-english h1{
+        font-size: 1rem;
+        margin-bottom: -5px;
+    }
+    .latest-english div p{
+        font-size: 0.8rem;
+    }
+    .latest-english div span{
+        font-size: 0.6rem;
+    }
+    .latest-english div{
+        width: 28%;
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+    .latest-english div img{
+        height:90px ;
+    }
+}
 
 
 
@@ -542,6 +566,30 @@ flex-wrap: wrap;
     color: rgb(196, 193, 193);
     font-weight: 500;
     padding: 3px;
+}
+@media(max-width:700px){
+    .latest-hindi{
+        height: auto;
+    }
+    .latest-hindi h1{
+        font-size: 1rem;
+        margin-bottom: -5px;
+    }
+    .latest-hindi div p{
+        font-size: 0.8rem;
+    }
+    .latest-hindi div span{
+        font-size: 0.6rem;
+    }
+    .latest-hindi div{
+        width: 28%;
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+    .latest-hindi div img{
+        height:90px ;
+        padding-top: 5px;
+    }
 }
 
 
@@ -614,7 +662,24 @@ font-size: 1.6rem;
     background-color: whitesmoke;
     cursor: pointer;
 }
-
+@media(max-width:700px){
+    #queue{
+        display: none;
+    }
+    #main{
+        width: 92%;
+        
+    }
+    .cover-picture{
+        height: 30vh;
+    }
+    .popular-artist h2{
+        font-size: 1rem;
+    }
+    .popular-artist{
+        height: 20vh;
+    }
+}
 
 
 
