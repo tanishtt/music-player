@@ -211,20 +211,63 @@ i:hover{
     
 }
 
-#queue h1{
-
+#main-queue h1{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+#main-queue a{
+color: whitesmoke;
+font-size: 0.8rem;
+padding-left: 50px;
+text-decoration: none;
 }
 
 #queue-artists{
+    margin-top: 10px;
     height: 40vh;
-    border: 2px solid black;
+    
     position: sticky;
     width: 100%;
+    
 }
-#queue-artists h1{
+.artists-subclass{
+    position: relative;
+    top: 10px;
+
+    display: flex;
+    height: 40%;
+    width: 95%;
+    align-items: center;
+    
     color: whitesmoke;
-    font-size: 1.6rem;
+    
 }
+.artists-subclass div div{
+    padding-left: 20px;
+}
+.artists-subclass div span{
+    padding-left: 20px;
+    font-size: 0.7rem;
+    color: rgb(150, 148, 148);
+}
+.artists-subclass span div{
+    padding-top: 10px;
+}
+
+.artists-subclass{
+    margin-top: 10px;
+}
+.artists-subclass img{
+    height: 90%;
+    border-radius: 0.2rem;
+    box-shadow: 3px 3px 9px black;
+    padding-left: 10px;
+}
+.artists-subclass div{
+    width: 50%;
+}
+
 #queue-songs{
     
     height: inherit;
