@@ -177,7 +177,56 @@ i:hover{
     margin-top: 12vh;
     /* background:linear-gradient(rgb(7, 17, 110),rgb(90, 3, 107),rgb(0, 0, 24)); */
 }
-
+#main-playlist-description{
+    border: 2px solid black;
+    height: 50vh;
+    width: 100%;
+}
+#main-playlist-songs{
+    height: auto;
+    width: 100%;
+}
+.main-playlist-songs-subclass{
+    height: 12vh;
+    
+    width: 100%;
+    background-color:#19203f ;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.main-playlist-songs-subclass:hover{
+    background-color: #242b52;
+}
+.mp-number{
+    padding-left: 10px;
+}
+.mp-image{
+    padding-left: 20px;
+}
+.mp-image img{
+    height: 70px;
+    width: 70px;
+    border-radius: 0.2rem;
+    
+}
+.mp-content{
+    width: 70%;
+    padding-left: 30px;
+}
+.mp-content span{
+    font-size: 0.8rem;
+    color: rgb(150, 149, 149);
+}
+.mp-heart{
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
+.mp-dot{
+    font-size: 1.4rem;
+    padding-left: 40px;
+}
 
 
 
@@ -243,6 +292,9 @@ text-decoration: none;
     color: whitesmoke;
     
 }
+.artists-subclass:hover{
+    background-color: #1a2350;
+}
 .artists-subclass div div{
     padding-left: 20px;
 }
@@ -285,7 +337,7 @@ text-decoration: none;
     padding-left: 10px;
 }
 .queue-items:hover{
-    background-color: #19203f;
+    background-color: #1a2350;
 }
 .queue-songs-image{
     padding-left: 10px;
