@@ -90,18 +90,24 @@ i:hover{
     width: 68%;
 }
 @media(max-width:600px){
-    .fa-bell,.fa-icons,.fa-search{
+    .fa-bell,.fa-icons,.fa-search,.fa-user-circle{
         
         font-size: 1rem;
     }
     #header h1{
         font-size: 1.2rem;
+        margin-bottom: 10px;
+        padding-left: 5px;
     }
     #header div input{
         height: 3vh;
     }
     .icon-top{
-        padding-left: 10px;
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+    #header div input::placeholder{
+        font-size: 0.5rem;
     }
 }
 
@@ -725,7 +731,34 @@ footer{
     display: flex;
     z-index: 3;
     align-content: space-between;
+    justify-content: space-between;
     bottom: 0px;
+}
+#footer-songs{
+    width: 20%;
+    color: whitesmoke;
+}
+#footer-play-button{
+    width: 40%;
+}
+.control-play{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.control-time-button{
+height: 35%;
+width: 100%;
+}
+.control-play-icons{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding:  5px 20px 0px 20px;
+}
+#footer-sound-section{
+    width: 20%;
 }
 @media(max-width:700px){
     footer{

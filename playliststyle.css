@@ -46,6 +46,7 @@ body{
 .icon{
     padding-left: 15px;
     color: rgb(0, 119, 255);
+    display: none;
 }
 .icon-top{
     padding-left: 35px;
@@ -87,6 +88,28 @@ i:hover{
 #form{
     
     width: 68%;
+}
+@media(max-width:600px){
+    .fa-bell,.fa-icons,.fa-search,.fa-user-circle{
+        
+        font-size: 1rem;
+    }
+    #header h1{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    #header div input{
+        height: 3vh;
+    }
+    .icon-top{
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+    #header div input::placeholder{
+        font-size: 0.5rem;
+    }
+
 }
 
 
